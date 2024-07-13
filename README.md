@@ -4,8 +4,7 @@ This simple solidity contract will help beginners understand how minting coins w
 
 ## Description
 
-![image](https://github.com/user-attachments/assets/60e95978-e887-4f28-941f-e1ae2fe2826f)
-
+![image](https://github.com/user-attachments/assets/fd19948d-122f-4e45-b7c6-2e7c5aebbf6b)
 
 This is a smart contract to demonstrate the creation of ERC20 Tokens. It has some owner-exclusive functions like mintTokens. Any user can burn and transfer tokens to different accounts. This contract is derived from ERC20 and uses some of its functions to demonstrate how it works in this contract. The token is named HelloTokens with the symbol HTC.
 
