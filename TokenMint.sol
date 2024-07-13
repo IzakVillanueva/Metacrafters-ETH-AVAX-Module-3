@@ -16,6 +16,10 @@ contract HelloToken is ERC20{
         _mint(to, amount);
     }
 
+    function transfer(address recipient, uint256 amount) public override returns (bool) {
+        return super.transfer(recipient, amount);
+    }
+
     function burnTokens(uint256 amount) public{
         _burn(msg.sender, amount);
     }
